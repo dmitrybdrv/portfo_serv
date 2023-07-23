@@ -37,7 +37,9 @@ app.get('/', (req: Request, res: Response) => {
     }
 })
 
-
+/**
+ * запрос на отправку письма
+ */
 app.post('/send-email', async (req: Request, res: Response) => {
 
     try {
